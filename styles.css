@@ -15,10 +15,13 @@ body {
     color: #F9FAF8;
     font-weight: bold;
 }
-.links {
+.links, .subtext {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.links {
     margin: 0;
 }
 
@@ -29,4 +32,40 @@ ul {
 }
 li {
     margin: 0 10px;
+}
+
+.main {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #1F2937;
+    padding: 80px 0;
+}
+.content {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    flex: 0 1 auto;
+    padding: 10px;
+    gap: 10px;
+}
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.placeholder {
+    display: flex;
+    background-color: grey;
+    flex: 0.5;
+}
+
+button {
+    display: inline-block;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 16px;
+    box-shadow: none;
+    width: 25%;
 }
