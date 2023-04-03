@@ -69,3 +69,35 @@ button {
     box-shadow: none;
     width: 25%;
 }
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 60px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    max-width: 150px;
+    height: 250px;
+    margin: 0 20px;
+}
+.bubble {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 8px;
+    border-width: medium;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+}
