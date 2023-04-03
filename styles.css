@@ -101,3 +101,29 @@ button {
     height: 100%;
     margin: 10px 0;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 100px 275px;
+    margin: 20px 0;
+}
+
+.quote {
+    display: flex;
+    flex: 0 1 70%;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    
+}
+
+.author {
+    display: flex;
+    flex: 1 1 auto;
+    align-self: end;
+    margin: 0 10px;
+    font-weight: bolder;
+}
