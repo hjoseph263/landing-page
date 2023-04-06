@@ -68,6 +68,7 @@ button {
     padding: 4px 16px;
     box-shadow: none;
     width: 25%;
+    border: none;
 }
 .info-header {
     text-align: center;
@@ -126,4 +127,46 @@ button {
     align-self: end;
     margin: 0 10px;
     font-weight: bolder;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    margin: 80px 160px;
+}
+
+.call-box {
+    display: flex;
+    padding: 20px;
+    background-color: #3882F6;
+    flex: 1;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.first {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+.second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-button {
+    display: flex;
+    flex: 0 1 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 16x;
+    box-shadow: none;
+    width: 25%;
+    border: 2px solid white;
+    
 }
